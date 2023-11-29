@@ -1,14 +1,14 @@
 ## How to use this notebook and dashboard
 ### How to use notebook
 1. langkah pertama yang harus dilakukan adalah mendownload project `bike_sharing_analysis.ipynb`.
-2. Open your favorite IDE like Jupyter Notebook or Google Colaboratory (but in here I will use Google Colab).
-3. Create a New Notebook.
-4. Upload and select the file with .ipynb extension.
+2. kemudian buka IDE seperti jupyter notebook atau google colab.
+3. pilih menu file lalu pilih open notebook.
+4. pilih notebook yang sudah didowload sebelumnya.
 5. Connect to hosted runtime.
-6. Lastly, run the code cells.
+6. jalankan tiap tiap cell yang berisikan kode.
 
-### `dashboard/dashboard.py`
-1. Download this project.
-2. Install the Streamlit in your terminal or command prompt using `pip install streamlit`. Install another libraries like pandas, numpy, scipy, matplotlib, and seaborn if you haven't.
-3. Please note, don't move the csv file because it acts a data source. keep it in one folder as dashboard.py
-4. Open your VSCode and run the file by clicking the terminal and write it `streamlit run dashboard.py`.
+### how to run dashboard using streamlit in terminal
+1. Download project pada folder `dashboard/dashboard.py`.
+2. Pasang Streamlit di terminal atau command prompt Anda menggunakan pip install streamlit. Pasang pustaka lainnya seperti pandas, numpy, scipy, matplotlib, dan seaborn jika Anda belum melakukannya.
+3. Harap dicatat, jangan pindahkan file csv karena berfungsi sebagai sumber data. Simpan di satu folder bersama dengan dashboard.py.
+4. Buka VSCode Anda dan jalankan file dengan mengklik terminal/cmd dan menulis streamlit run dashboard.py
