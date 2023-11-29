@@ -41,7 +41,7 @@ max_date = pd.to_datetime(day_df['dateday']).dt.date.max()
 
 
 with st.sidebar:
-    image=Image.open('Dashboard/bike.jpg')
+    image=Image.open('bike.jpg')
     st.image(image)
     
     # Mengambil start_date & end_date dari date_input
