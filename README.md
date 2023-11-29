@@ -1,6 +1,6 @@
-## 3. Getting Started
-### `notebook.ipynb`
-1. Download this project.
+## How to use this notebook and dashboard
+### How to use notebook
+1. langkah pertama yang harus dilakukan adalah mendownload project `bike_sharing_analysis.ipynb`.
 2. Open your favorite IDE like Jupyter Notebook or Google Colaboratory (but in here I will use Google Colab).
 3. Create a New Notebook.
 4. Upload and select the file with .ipynb extension.
