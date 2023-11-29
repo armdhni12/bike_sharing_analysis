@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st 
-day_df = pd.read_csv("D:\proyek_analisis_data\day.csv")
+day_df = pd.read_csv("D:\\bike_sharing_analysis\Dashboard\day.csv")
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
@@ -41,7 +41,7 @@ max_date = pd.to_datetime(day_df['dateday']).dt.date.max()
 
 
 with st.sidebar:
-    image=Image.open(r'D:\proyek_analisis_data\bike.jpg')
+    image=Image.open(r'D:\bike_sharing_analysis\Dashboard\bike.jpg')
     st.image(image)
     
     # Mengambil start_date & end_date dari date_input
