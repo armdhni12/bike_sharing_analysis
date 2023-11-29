@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st 
-day_df = pd.read_csv("D:\\bike_sharing_analysis\Dashboard\day.csv")
+day_df = pd.read_csv("Dashboard\day.csv")
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
