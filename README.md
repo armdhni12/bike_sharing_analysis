@@ -9,6 +9,7 @@
 
 ### how to run dashboard using streamlit in terminal
 1. Download project pada folder `dashboard/dashboard.py`.
-2. Pasang Streamlit di terminal atau command prompt Anda menggunakan pip install streamlit. Pasang pustaka lainnya seperti pandas, numpy, scipy, matplotlib, dan seaborn jika Anda belum melakukannya.
-3. Harap dicatat, jangan pindahkan file csv karena berfungsi sebagai sumber data. Simpan di satu folder bersama dengan dashboard.py.
-4. Buka VSCode Anda dan jalankan file dengan mengklik terminal/cmd dan menulis streamlit run dashboard.py
+2. Pasang Streamlit di terminal atau command prompt Anda menggunakan pip install streamlit.
+3. Pasang pustaka lainnya seperti pandas, numpy, matplotlib, dan seaborn jika Anda belum melakukannya.
+4. Harap dicatat, jangan pindahkan file csv karena berfungsi sebagai sumber data. Simpan di satu folder bersama dengan dashboard.py.
+5. Buka VSCode Anda dan jalankan file dengan mengklik terminal/cmd dan menulis streamlit run dashboard.py
